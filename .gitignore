@@ -1,0 +1,13 @@
+# Build output
+/target
+
+# Binary tidak sengaja dari `rustc src/main.rs`
+/src/main
+
+# Backup file dari rustfmt
+**/*.rs.bk
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
